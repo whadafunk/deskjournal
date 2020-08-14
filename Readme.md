@@ -1,7 +1,7 @@
 # DESKTOP Journal and playbook
 
 ## In order to be able to track my steps through a full installation and configuration
-## of a workstation 
+ of a workstation 
 
 ![Cover Photo](./cover_photo.jpg)
  
