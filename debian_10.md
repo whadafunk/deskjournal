@@ -2,7 +2,7 @@
 
 ## Desktop Environment: Gnome
 
-## Modify swappiness
+### Modify swappiness
 
 This is a kernel parameters, that instructs the kernel about the percentage of swap it should use
 The parameters is vm.swappiness and the reading is how much free ram we should have left before starting to use swap.
@@ -11,7 +11,7 @@ I usually put a low number here like 10, so the swap will be used when I have le
 The way to do this permanent is by modifying /etc/sysctl.conf
 
 
-## Gnome Extensions:
+### Gnome Extensions:
 
 	- Applications menu
 	- Dash to dock
@@ -25,26 +25,26 @@ The way to do this permanent is by modifying /etc/sysctl.conf
 	- Show desktop button
 
 
-## Evolution Exchange support
+### Evolution Exchange support
 In order for Evolution to support Exchange as source you need to install
 the *evolution-ews* package. 
 
 In older versions of linux there was another package
 that is not supported anymore which is called *evolution-mapi*.
 
-## Configure Display manager
+### Configure Display manager
 
 If you're not happy with the default *gdm* and you have installed one of the
 alternative display managers like *lightdm* or *mdm*, you can configure which
 one the system will use like this:  *dpkg-reconfigure gdm*
 
-## Keepas2 Installation
+### Keepas2 Installation
 
 After the installation of the keepass package, in order for auto-type to work you need
 to install the *xdotool* package and then configure a key combo with the following command
 */usr/bin/keepass2 --auto-type*
 
-## apt transport
+### apt transport
 
 If you need to use atp with https or tor, you have to install specific packages
 
@@ -52,7 +52,7 @@ If you need to use atp with https or tor, you have to install specific packages
 * apt-transport-tor
 
 
-## Other packages
+### Other packages
 
 * mc -> midnight commander
 * htop -> enhanced top
@@ -71,8 +71,9 @@ If you need to use atp with https or tor, you have to install specific packages
 * vscode
 * pidgin
 * virtualbox
+* grip - *a webserver writen in python, that can render markdown pages*
 
-## Installing Adobe Flash
+### Installing Adobe Flash
 
 Download the package:
 *$ wget https://fpdownload.adobe.com/get/flashplayer/pdc/32.0.0.255/flash_player_npapi_linux.x86_64.tar.gz*
@@ -94,14 +95,14 @@ Then execute the following command to copy the configuration files to /usr direc
 
 You can install the openjdk version from the official repository or you can download the official java jdk from oracle website
 
-## VI
+### VI
 
 The default vi has some problems related to key-mapping. For example when you press the directional keys, instead of moving the cursor
 it will type some character. 
 You can solve this issue by putting some configuration options in the vi config file or by installing the full vim package
 
 
-## Other software
+### Other software
 
 * curl / wget
 * tcpdump
@@ -111,7 +112,7 @@ You can solve this issue by putting some configuration options in the vi config 
 * burp
 * wireshark
 
-## Security tools
+### Security tools
 
 * sqlmap
 * aircrack
