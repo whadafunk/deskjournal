@@ -21,15 +21,21 @@
 * evolution-ews / evolution-mapi - *evolution exchange plugins*
 
 
+
+### Network tools
+
+* remmina - *remote client for various protocols*
 * curl / wget
-* nmap
-* burp
-* zap
 * ngrep
 * netcat
 * wireshark
 
 
+### Security Tools
+
+* burp
+* zap
+* nmap
 * sqlmap
 * aircrack-ng
 * nikto
