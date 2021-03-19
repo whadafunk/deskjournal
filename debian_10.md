@@ -51,6 +51,17 @@ If you need to use atp with https or tor, you have to install specific packages
 * apt-transport-http
 * apt-transport-tor
 
+### brackets installation (libcurl problems)
+
+ just fixed it but had to rebuild the deb package.
+
+    Download the .deb installer file
+    Inside the folder your downloaded the file run dpkg-deb -R ./Brackets.Release.1.12.64-bit.deb Brackets
+    Edit file Brackets/DEBIAN/control and replace libcurl3 with libcurl4
+    Rebuild .deb installer running dpkg-deb -b Brackets Brackets-fixed.deb
+    Install Brackets using the fixed installer running sudo dpkg -i Brackets-fixed.deb
+
+
 
 ### Other packages
 
@@ -72,6 +83,8 @@ If you need to use atp with https or tor, you have to install specific packages
 * pidgin
 * virtualbox
 * grip - *a webserver writen in python, that can render markdown pages*
+* net-tool (ifconfig, traceroute, etc)
+* bind9-dnsutils (nslookup...)
 
 ### Installing Adobe Flash
 
